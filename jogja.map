@@ -1,0 +1,24 @@
+MAP			# tanda awal mapfile
+	NAME			"Yogyakarta"						# nama map
+	IMAGETYPE		PNG									# format map yang ditampilkan
+	EXTENT			110.003 -8.20428 110.837 -7.54239	# jangkauan batas kordinat peta
+	STATUS			ON									# semua layer ditampilkan
+	UNITS			meters								# unit kordinat peta
+	SIZE			800 600								# ukuran resolusi map
+	IMAGECOLOR		108 166 205							# background map
+# Mendefinisikan layers
+LAYER
+	NAME			"Provinsi"							# nama layer
+	STATUS			ON
+	TYPE			POLYGON								# tipe layer yang terbentuk
+	CONNECTIONTYPE POSTGIS								# jenis koneksi ke database
+	CONNECTION "host=localhost dbname=jogja user=postgres password=4395firi port=5432"
+	DATA "geom FROM admin_kecamatan USING UNIQUE gid"	# query data geom dari database
+	CLASS
+	NAME			"Provinsi"							# nama kelas tematik
+	COLOR			255 255 255							# warna latar putih
+	OUTLINECOLOR	128 128 128							# warna batas luar polygon
+	END # class
+	END	# akhir definisi layer
+END	# akhir mapfile
+	
