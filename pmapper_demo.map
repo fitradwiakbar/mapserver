@@ -198,3 +198,4 @@ LAYER
 		"DESCRIPTION"	"Jalan Provinsi"
 	END # Metadata
 	CLASS
+		Name 'Jalan Provinsi'
