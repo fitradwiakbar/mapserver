@@ -169,6 +169,7 @@ LAYER
   		BUFFER 2
   		TYPE TRUETYPE
   		ENCODING "UTF-8"
+  		FONT FreeSans
 
 
 
