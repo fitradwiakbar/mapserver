@@ -209,3 +209,4 @@ LAYER
 			FONT FreeSans
 			SIZE 8
 		END # LABEL
+	END # Class
