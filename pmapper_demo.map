@@ -153,6 +153,7 @@ LAYER
   TRANSPARENCY 30
   TEMPLATE void
   PROJECTION
+  #"init=epsg:4326"
   METADATA
     "DESCRIPTION"         "JPL Global Mosaic (WMS)"
     "wms_name"            "global_mosaic_base"
