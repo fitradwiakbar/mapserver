@@ -185,3 +185,4 @@ LAYER
 	STATUS ON
 	CONNECTIONTYPE POSTGIS
 		CONNECTION "host=localhost dbname=jogja user=postgres password=4395firi port=5432"
+		DATA "geom FROM public.jalan"
