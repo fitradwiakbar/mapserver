@@ -159,6 +159,7 @@ LAYER
   METADATA
     "DESCRIPTION"         "Provinsi"
   END # Metadata
+  CLASS
 END
 
 
