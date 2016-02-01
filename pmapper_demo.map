@@ -200,3 +200,4 @@ LAYER
 	CLASS
 		Name 'Jalan Provinsi'
 		COLOR 0 255 150
+		LABEL
