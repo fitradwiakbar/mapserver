@@ -194,3 +194,4 @@ LAYER
 		#"init=epsg:4326"
 		"+proj=longlat +datum=WGS84 +no_defs"
 	END
+	METADATA
