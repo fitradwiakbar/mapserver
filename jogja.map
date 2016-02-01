@@ -1,5 +1,5 @@
 MAP			# tanda awal mapfile
-	NAME			"Daerah Istimewa Yogyakarta"						# nama map
+	NAME			"D.I.Y"						# nama map
 	IMAGETYPE		PNG									# format map yang ditampilkan
 	EXTENT			110.003 -8.20428 110.837 -7.54239	# jangkauan batas kordinat peta
 	STATUS			ON									# semua layer ditampilkan
