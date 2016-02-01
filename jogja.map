@@ -1,4 +1,5 @@
 MAP
+
 NAME 		"Yogyakarta"
 IMAGETYPE 	PNG
 EXTENT 		110.003 -8.20428 110.837 -7.54239
@@ -7,12 +8,15 @@ UNITS 		meters
 SIZE		300 600
 IMAGECOLOR	108 166 205
 
-  WEB
-	TEMPLATE "jogja_map.html"
-	IMAGEPATH "C:\ms4w\Apache\htdocs\mapserver\tmp"
-	IMAGEURL "C:\ms4w\Apache\htdocs\mapserver\tmp"
-  END
+WEB
+
+TEMPLATE "jogja_map.html"
+IMAGEPATH "C:\ms4w\Apache\htdocs\mapserver\tmp"
+IMAGEURL "C:\ms4w\Apache\htdocs\mapserver\tmp"
+END
+
 LAYER
+
 NAME 		"Provinsi"
 STATUS		ON
 TYPE		POLYGON
@@ -21,6 +25,7 @@ CONNECTION "host=localhost dbname=jogja user=postgres password=4395firi"
 DATA "geom FROM admin_kecamatan USING UNIQUE gid"
 
 CLASS
+
 NAME "Provinsi"
 COLOR 255 255 255
 OUTLINECOLOR 128 128 128
