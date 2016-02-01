@@ -154,6 +154,7 @@ LAYER
   TEMPLATE void
   PROJECTION
   #"init=epsg:4326"
+  "+proj=longlat +datum=WGS84 +no_defs"
   METADATA
     "DESCRIPTION"         "JPL Global Mosaic (WMS)"
     "wms_name"            "global_mosaic_base"
