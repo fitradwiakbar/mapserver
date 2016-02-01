@@ -181,3 +181,4 @@ END # Layer
 LAYER
 	NAME "jalan_provinsi"
 	TYPE line
+	LABELITEM "label"
