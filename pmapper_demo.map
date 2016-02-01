@@ -208,3 +208,4 @@ LAYER
 			ENCODING "UTF-8"
 			FONT FreeSans
 			SIZE 8
+		END # LABEL
