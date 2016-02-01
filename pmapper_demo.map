@@ -160,7 +160,8 @@ LAYER
     "DESCRIPTION"         "Provinsi"
   END # Metadata
   CLASS
-END
+  	Name 'DIY'
+  	COLOR 200 254 199
 
 
 
