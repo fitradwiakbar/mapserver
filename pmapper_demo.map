@@ -3,7 +3,7 @@
 # on your machine (see additionally MapServer documentation for detailed information):
 #
 #  MAP
-#    SHAPEPATH ()
+#    SHAPEPATH
 #    FONTSET
 #    SYMBOLSET
 #  
