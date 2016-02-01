@@ -199,3 +199,4 @@ LAYER
 	END # Metadata
 	CLASS
 		Name 'Jalan Provinsi'
+		COLOR 0 255 150
