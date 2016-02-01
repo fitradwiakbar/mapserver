@@ -157,13 +157,8 @@ LAYER
   "+proj=longlat +datum=WGS84 +no_defs"
   END
   METADATA
-    "DESCRIPTION"         "JPL Global Mosaic (WMS)"
-    "wms_name"            "global_mosaic_base"
-    "wms_style"           "visual"
-    "wms_server_version"  "1.1.1"
-    "wms_format"          "image/jpeg"
-    "ows_title"           "jpl_wms_global_mosaic"
-  END
+    "DESCRIPTION"         "Provinsi"
+  END # Metadata
 END
 
 
