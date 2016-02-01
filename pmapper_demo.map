@@ -150,7 +150,7 @@ LAYER
   CONNECTIONTYPE POSTGIS
   	CONNECTION "host=localhost dbname=jogja user=postgres password=4395firi port=5432"
   	DATA "geom FROM public.admin_kecamatan USING UNIQUE gid"
-    #"init=epsg:4326"
+  TRANSPARENCY 30
     "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs  no_defs"
   END
   METADATA
