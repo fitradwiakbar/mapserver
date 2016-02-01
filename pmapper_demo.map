@@ -210,3 +210,4 @@ LAYER
 			SIZE 8
 		END # LABEL
 	END # Class
+END # Layer
