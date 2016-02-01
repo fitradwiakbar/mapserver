@@ -152,7 +152,7 @@ LAYER
   	DATA "geom FROM public.admin_kecamatan USING UNIQUE gid"
   TRANSPARENCY 30
   TEMPLATE void
-  END
+  PROJECTION
   METADATA
     "DESCRIPTION"         "JPL Global Mosaic (WMS)"
     "wms_name"            "global_mosaic_base"
