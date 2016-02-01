@@ -191,3 +191,4 @@ LAYER
 	TOLERANCEUNITS pixels
 	TEMPLATE void
 	PROJECTION
+		#"init=epsg:4326"
