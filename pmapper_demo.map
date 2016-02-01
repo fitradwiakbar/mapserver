@@ -189,3 +189,4 @@ LAYER
 		FILTER "label LIKE '%Jl. %'"
 	TOLERANCE 3
 	TOLERANCEUNITS pixels
+	TEMPLATE void
