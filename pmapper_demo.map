@@ -144,7 +144,7 @@ END
 #
 LAYER
   NAME "provinsi"
-  TYPE RASTER
+  LABELITEM "kecamatan"
   STATUS OFF
   CONNECTION "http://wms.jpl.nasa.gov/wms.cgi?"
   CONNECTIONTYPE WMS
