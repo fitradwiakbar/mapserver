@@ -22,7 +22,6 @@ EXTENT  110.003 -8.20428 110.837 -7.54239
 #UNITS meters 
 #EXTENT -15 30 40 70
 UNITS meters
-#UNITS dd
 SIZE 600 500
 SHAPEPATH "../../../pmapper_demodata"
 SYMBOLSET "../common/symbols/symbols-pmapper.sym"   
