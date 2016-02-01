@@ -139,7 +139,9 @@ END
 
 #================== START OF LAYER SECTION =====================#
 
-
+#
+# Start of Layer Provinsi
+#
 LAYER
   NAME "jpl_wms_global_mosaic"
   TYPE RASTER
