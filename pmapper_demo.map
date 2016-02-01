@@ -171,10 +171,9 @@ LAYER
   		ENCODING "UTF-8"
   		FONT FreeSans
   		SIZE 8
-  	END #LABEL
-  END #Class
-
-
+  	END # LABEL
+  END # Class
+END # Layer
 
 #
 # LAYER DGM
