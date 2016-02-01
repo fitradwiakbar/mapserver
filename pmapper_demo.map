@@ -188,3 +188,4 @@ LAYER
 		DATA "geom FROM public.jalan"
 		FILTER "label LIKE '%Jl. %'"
 	TOLERANCE 3
+	TOLERANCEUNITS pixels
