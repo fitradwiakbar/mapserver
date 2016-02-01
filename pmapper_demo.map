@@ -149,7 +149,7 @@ LAYER
   STATUS ON
   CONNECTIONTYPE POSTGIS
   	CONNECTION "host=localhost dbname=jogja user=postgres password=4395firi port=5432"
-  PROJECTION
+  	DATA "geom FROM public.admin_kecamatan USING UNIQUE gid"
     #"init=epsg:4326"
     "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs  no_defs"
   END
