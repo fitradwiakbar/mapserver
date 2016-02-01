@@ -145,7 +145,7 @@ END
 LAYER
   NAME "provinsi"
   LABELITEM "kecamatan"
-  STATUS OFF
+  TYPE polygon
   CONNECTION "http://wms.jpl.nasa.gov/wms.cgi?"
   CONNECTIONTYPE WMS
   PROJECTION
